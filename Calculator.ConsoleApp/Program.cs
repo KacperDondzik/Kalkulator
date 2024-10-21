@@ -16,6 +16,8 @@ namespace Calculator.ConsoleApp
 
             Console.WriteLine("Jaką operację chcesz wykonać? Możliwe operacje to: '+', '-', '*', '/'.");
 
+            var operation = Console.ReadLine();
+
 
         }
     }

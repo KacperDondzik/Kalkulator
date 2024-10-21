@@ -19,6 +19,8 @@ namespace Calculator.ConsoleApp
 
             Console.WriteLine("Podaj proszę 2 liczbę:");
 
+            var number2 = int.Parse(Console.ReadLine());
+
 
         }
     }

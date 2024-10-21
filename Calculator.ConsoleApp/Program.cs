@@ -21,7 +21,25 @@ namespace Calculator.ConsoleApp
 
             var number2 = int.Parse(Console.ReadLine());
 
+            var result = 0;
 
+            switch (operation)
+            {
+                case "+":
+                    result = number1 + number2;
+                    break;
+                case "-":
+                    result = number1 - number2;
+                    break;
+                case "*":
+                    result = number1 * number2;
+                    break;
+                case "/":
+                    result = number1 / number2;
+                    break;
+                default:
+                    throw new Exception("Wybrałeś złą operację!");
+            }
         }
     }
 }

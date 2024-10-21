@@ -10,6 +10,9 @@ namespace Calculator.ConsoleApp
 
             Console.WriteLine("Podaj proszę 1 liczbę:");
 
+            var number1 = Console.ReadLine();
+
+
 
         }
     }

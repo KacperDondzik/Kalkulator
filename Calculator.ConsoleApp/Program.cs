@@ -12,6 +12,9 @@ namespace Calculator.ConsoleApp
 
             var number1 = Console.ReadLine();
 
+            var number1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Jaką operację chcesz wykonać? Możliwe operacje to: '+', '-', '*', '/'.");
 
 
         }

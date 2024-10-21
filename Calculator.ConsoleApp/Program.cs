@@ -17,6 +17,7 @@ namespace Calculator.ConsoleApp
 
             var operation = Console.ReadLine();
 
+            Console.WriteLine("Podaj proszę 2 liczbę:");
 
 
         }

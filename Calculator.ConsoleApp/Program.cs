@@ -40,6 +40,8 @@ namespace Calculator.ConsoleApp
                 default:
                     throw new Exception("Wybrałeś złą operację!");
             }
+            Console.WriteLine($"Wynik Twojego działania to: {result}.");
+
         }
     }
 }

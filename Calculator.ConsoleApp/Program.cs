@@ -10,13 +10,13 @@ namespace Calculator.ConsoleApp
 
             Console.WriteLine("Podaj proszę 1 liczbę:");
 
-            var number1 = Console.ReadLine();
 
             var number1 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Jaką operację chcesz wykonać? Możliwe operacje to: '+', '-', '*', '/'.");
 
             var operation = Console.ReadLine();
+
 
 
         }

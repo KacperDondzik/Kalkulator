@@ -1,2 +1,2 @@
 # Kalkulator
-Jest to program prostego Kalkulatora który umożliwia dodawanie, odejmowanie, dzielenie oraz mnożenie! - Kacper Dondzik
+Jest to program Kalkulatora prostego, który umożliwia dodawanie, odejmowanie, dzielenie oraz mnożenie! - Kacper Dondzik
